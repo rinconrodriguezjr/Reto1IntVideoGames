@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 70426166}
   m_Layer: 0
   m_Name: Capsule (5)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,6 +184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &70426168
 MeshRenderer:
@@ -250,7 +254,7 @@ GameObject:
   - component: {fileID: 71654809}
   m_Layer: 0
   m_Name: Capsule (14)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,6 +300,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &71654811
 MeshRenderer:
@@ -461,7 +469,7 @@ GameObject:
   - component: {fileID: 119621980}
   m_Layer: 0
   m_Name: Capsule (4)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -507,6 +515,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &119621982
 MeshRenderer:
@@ -635,7 +647,7 @@ GameObject:
   - component: {fileID: 207615283}
   m_Layer: 0
   m_Name: Capsule (13)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,6 +693,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &207615285
 MeshRenderer:
@@ -892,7 +908,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.41859728
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -968,7 +984,7 @@ GameObject:
   - component: {fileID: 312311916}
   m_Layer: 0
   m_Name: Capsule (9)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,6 +1030,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &312311918
 MeshRenderer:
@@ -1334,7 +1354,7 @@ MonoBehaviour:
   - {fileID: 1941751194}
   - {fileID: 1051080286}
   - {fileID: 826648796}
-  velocidadMovimiento: 8
+  velocidadMovimiento: 2
 --- !u!135 &592595313
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1590,6 +1610,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!136 &673381017
 CapsuleCollider:
@@ -1744,7 +1768,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.41859728
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1789,7 +1813,7 @@ GameObject:
   - component: {fileID: 715874873}
   m_Layer: 0
   m_Name: Capsule (2)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1835,6 +1859,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &715874875
 MeshRenderer:
@@ -1994,7 +2022,7 @@ GameObject:
   - component: {fileID: 941943857}
   m_Layer: 0
   m_Name: Capsule (15)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2040,6 +2068,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &941943859
 MeshRenderer:
@@ -2190,7 +2222,7 @@ GameObject:
   - component: {fileID: 980982378}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2236,6 +2268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &980982380
 MeshRenderer:
@@ -2335,6 +2371,8 @@ GameObject:
   - component: {fileID: 1013672121}
   - component: {fileID: 1013672122}
   - component: {fileID: 1013672123}
+  - component: {fileID: 1013672124}
+  - component: {fileID: 1013672125}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2483,20 +2521,77 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013672114}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 278048f94e6dfdd498178d8aaffaef5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dotCount: 0
-  dotTarget: 15
+  dotTarget: 1
   cherryObject: {fileID: 84389149}
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 411259647}
+  winText: {fileID: 0}
+--- !u!114 &1013672124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013672114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1656d0fcf48d01429c76bb96446dbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 411259647}
+  dotsTarget: 1
+  cherryObject: {fileID: 84389149}
+--- !u!114 &1013672125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013672114}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2612921594f5d5c48a7d6d0f7ac26373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: Ganaste!
+  gameOverText: {fileID: 0}
 --- !u!4 &1045859296 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3251690325731628864, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
   m_PrefabInstance: {fileID: 1355194601}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1045859300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84389149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2612921594f5d5c48a7d6d0f7ac26373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winText: Ganaste!
+  gameOverText: {fileID: 411259647}
+--- !u!65 &1045859304
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84389149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8019544, y: 1.588679, z: 0.8791237}
+  m_Center: {x: -0.07508075, y: 0.7943395, z: 0.10694082}
 --- !u!1 &1051080285
 GameObject:
   m_ObjectHideFlags: 0
@@ -2617,7 +2712,7 @@ MonoBehaviour:
   - {fileID: 2050308330}
   - {fileID: 772632543}
   - {fileID: 1823703664}
-  velocidadMovimiento: 5
+  velocidadMovimiento: 2
 --- !u!4 &1157624860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 722881024703374693, guid: f4c0092c8046f484a80394f3f076d9d7, type: 3}
@@ -2651,7 +2746,7 @@ GameObject:
   - component: {fileID: 1189816787}
   m_Layer: 0
   m_Name: Capsule (3)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2697,6 +2792,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1189816789
 MeshRenderer:
@@ -2776,7 +2875,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.41859728
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 51
   m_AngularSpeed: 120
@@ -2953,7 +3052,7 @@ GameObject:
   - component: {fileID: 1335841430}
   m_Layer: 0
   m_Name: Capsule (11)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2999,6 +3098,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1335841432
 MeshRenderer:
@@ -3065,7 +3168,7 @@ GameObject:
   - component: {fileID: 1346738473}
   m_Layer: 0
   m_Name: Capsule (12)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3111,6 +3214,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1346738475
 MeshRenderer:
@@ -3171,11 +3278,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3251690325731265376, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
       propertyPath: m_Name
-      value: Cherry Variant
+      value: cherryObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251690325731265376, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251690325731265376, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
+      propertyPath: m_TagString
+      value: Cherry
       objectReference: {fileID: 0}
     - target: {fileID: 3251690325731628864, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3251690325731628864, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.89901
       objectReference: {fileID: 0}
     - target: {fileID: 3251690325731628864, guid: 8dadb4a5d9de8a941b6bb68d601ad73f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3372,7 +3491,7 @@ GameObject:
   - component: {fileID: 1532185350}
   m_Layer: 0
   m_Name: Capsule (7)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3418,6 +3537,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1532185352
 MeshRenderer:
@@ -3484,7 +3607,7 @@ GameObject:
   - component: {fileID: 1637357335}
   m_Layer: 0
   m_Name: Capsule (10)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3530,6 +3653,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1637357337
 MeshRenderer:
@@ -3848,7 +3975,7 @@ GameObject:
   - component: {fileID: 1861070785}
   m_Layer: 0
   m_Name: Capsule (8)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3894,6 +4021,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &1861070787
 MeshRenderer:
@@ -4504,7 +4635,7 @@ GameObject:
   - component: {fileID: 2052251590}
   m_Layer: 0
   m_Name: Capsule (6)
-  m_TagString: Untagged
+  m_TagString: Capsule
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4550,6 +4681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22a9f6b9400c9434a84c11d676f1ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotCount: 0
+  dotTarget: 1
+  cherryObject: {fileID: 0}
+  winText: {fileID: 0}
   scoreValue: 1
 --- !u!23 &2052251592
 MeshRenderer:
@@ -4726,7 +4861,7 @@ MonoBehaviour:
   - {fileID: 1135936480}
   - {fileID: 903263996}
   - {fileID: 167554237}
-  velocidadMovimiento: 8
+  velocidadMovimiento: 2
 --- !u!135 &2137630466
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -5,61 +5,42 @@ using TMPro;
 public class CherryAppearance : MonoBehaviour
 {
     public int dotCount = 0; 
-    public int dotTarget = 15; 
+    public int dotTarget = 1; 
     public GameObject cherryObject; 
+    //public TMP_Text winText;
     public TMP_Text scoreText;
+    public TMP_Text winText;
 
-    //bool cherryCollected = false;
+    //private bool isWin = false;
 
-   
-    void UpdateScore(int score)
+    void Start()
     {
-        Debug.Log("dotTargetText" + score);
-        scoreText.text = score == dotTarget ? "WIN" : score.ToString();
-        //scoreText.text = cherryCollected ? "WIN" : score.ToString();
+        //UpdateScore(dotCount);
+
+    }
+    void UpdateScore(int score)
+    {   
+      
+        winText.text = score == dotTarget ? "WIN" : score.ToString();
+        
     }
 
     
     void CheckDotCount()
     {
-        if (dotCount >= dotTarget)
+        if (dotCount == dotTarget)
                 {
-            cherryObject.SetActive(true); 
-            UpdateScore(dotCount); 
-        }
-        // if (dotCount >= dotTarget && !cherryCollected)
-        //{
-        //  cherryObject.SetActive(true);
-        // UpdateScore(dotCount);
-        // }
+            cherryObject.SetActive(true);
+           }
+         
     }
-
-    /*void InteractWithCherry()
-    {
-        if (dotCount >= dotTarget && !cherryCollected)
-        {
-            cherryCollected = true; // Se marca el Cherry como recolectado
-            cherryObject.SetActive(false); // Ocultar el objeto Cherry
-            UpdateScore(dotCount); // Cambiar el texto del puntaje a "WIN"
-        }
-    }*/
 
 
     public void CollectDot()
     {
-        dotCount++; 
-        UpdateScore(dotCount); 
-
-        CheckDotCount(); 
+        dotCount++;
+        CheckDotCount(); // Verificar si se ha alcanzado la cantidad objetivo antes de actualizar el puntaje.
+        UpdateScore(dotCount);
     }
-    /*public void CollectDot()
-    {
-        if (!cherryCollected)
-        {
-            dotCount++; // Aumentar el contador de elementos DOT recolectados
-            UpdateScore(dotCount); // Actualizar el texto del puntaje
-
-            CheckDotCount(); // Verificar si se alcanzó la cantidad necesaria para mostrar el Cherry
-        }
-    }*/
+   
 }
