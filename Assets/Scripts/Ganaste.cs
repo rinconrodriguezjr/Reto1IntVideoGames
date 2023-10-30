@@ -24,17 +24,15 @@ public class Ganaste : MonoBehaviour
     void EndGame()
     {
         gameEnded = true;
-        Debug.Log(winText); // Muestra "¡Ganaste!" en la consola (puedes cambiar esto a mostrar un mensaje en pantalla si lo prefieres)
-        // Aquí puedes agregar lógica adicional para el final del juego
+        Debug.Log(winText);
 
-        // Ejemplo: Reiniciar el nivel después de un breve retraso
-        Invoke("RestartLevel", 2f);
+        Invoke("LoadWinScene", 0.5f);
     }
 
-    void RestartLevel()
+    void LoadWinScene()
     {
-        // Carga el nivel actual de nuevo
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // Carga la escena "Ganaste"
+        SceneManager.LoadScene("Ganaste");
     }
 
 

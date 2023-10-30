@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Escena3JorgeRincon.unity
+    guid: 5cd5e9e9ab820da49b8ebe346d02c92a
+  - enabled: 1
+    path: Assets/Scenes/Ganaste.unity
+    guid: a1f7648f0c4af444dafddf9a89e628a2
   m_configObjects: {}
