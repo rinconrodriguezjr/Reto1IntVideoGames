@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 86d42f7508326ba40be7e99a75fc7f55
+  - enabled: 1
     path: Assets/Scenes/Escena3JorgeRincon.unity
     guid: 5cd5e9e9ab820da49b8ebe346d02c92a
   - enabled: 1
