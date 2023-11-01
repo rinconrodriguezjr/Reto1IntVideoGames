@@ -18,6 +18,7 @@ public class ControlsController : MonoBehaviour
     private void Start()
     {
         LoadConfiguration();
+
     }
 
     public void VolumeLevel(float volume)
